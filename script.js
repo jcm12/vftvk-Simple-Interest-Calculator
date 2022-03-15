@@ -6,6 +6,7 @@ function compute()
 
         alert("Enter a positive number.");
         document.getElementById("prinicpal").focus();
+        return;
 
     }
     else {
