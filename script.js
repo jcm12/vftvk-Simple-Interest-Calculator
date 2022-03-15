@@ -5,9 +5,8 @@ function compute()
     if (principal <= 0) {
 
         alert("Enter a positive number.");
-        document.getElementById("prinicpal").focus();
-        return;
-
+        document.getElementById("principal").focus();
+        return 0;
     }
     else {
 
