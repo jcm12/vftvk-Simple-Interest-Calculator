@@ -24,6 +24,7 @@ function compute()
         toDisplay += `in the year <mark>${year}</mark>.`;
 
         resultToSet.innerHTML = toDisplay;
+        return 1;
     }
 }
 
@@ -32,6 +33,7 @@ function updateRate() {
     var rateToShow = document.getElementById("rate_val");
 
     rateToShow.innerText = rateval + '%';
+    return 1;
     
 }
         
