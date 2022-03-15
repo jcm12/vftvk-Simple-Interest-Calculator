@@ -1,4 +1,30 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
+
+h1{
+    color: grey;
+    font-family: verdana;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    width: 500px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.adjustable {
+    width: 375px;
+    margin: auto;
+}
+
+footer {
+    margin-top: 25px;
+}
 
 
